@@ -18,6 +18,9 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
         outline: none;
         padding-left: 10px;
+    };
+    #fullpage {
+        height: 100vh !important;
     }
 `;
 

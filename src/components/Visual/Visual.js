@@ -11,7 +11,7 @@ const Container = styled.div`
   font-weight: bold;
   line-height: 70px;
 
-  position: fixed;
+  position: absolute;
   left: 50%;
   top: 45%;
   transform: translate(-50%, -50%);
