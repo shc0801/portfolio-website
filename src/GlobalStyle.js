@@ -18,12 +18,6 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
         outline: none;
         padding-left: 10px;
-    };
-    #tsparticles {
-        height: 100%;
-    }
-    #tsparticles > canvas {
-        position: absolute !important;
     }
 `;
 
