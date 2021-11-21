@@ -7,7 +7,7 @@ const Container = styled.div`
 
   color: #fff;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   line-height: 70px;
 
@@ -23,13 +23,11 @@ const Container = styled.div`
 const TitleText = styled.i`
   font-size: 1.4rem;
   font-weight: normal;
-  color: #fff;
-  line-height: 30px;
-  
-  opacity: 0.8;
+  color: rgba(255, 255, 2555, .5);
+  line-height: 45px;
 `
 
-const MainPage = () => {
+const Home = () => {
   return (
     <>
       <Container>
@@ -38,7 +36,7 @@ const MainPage = () => {
         </TitleText>
         <Typewriter
           options={{
-            strings: "I’m Fullstack <br/> Developer;",
+            strings: "저는 Fullstack 개발자 입니다.",
             autoStart: true,
           }}
         />
@@ -128,4 +126,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default Home;
