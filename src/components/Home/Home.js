@@ -1,6 +1,6 @@
 import Particles from "react-tsparticles";
 import styled from "styled-components";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 const Container = styled.div`
   width: 100%;
@@ -8,7 +8,7 @@ const Container = styled.div`
   color: #fff;
   text-align: center;
   font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: bold;  
   line-height: 70px;
 
   position: absolute;
@@ -17,30 +17,29 @@ const Container = styled.div`
   transform: translate(-50%, -50%);
   z-index: 100;
 
-  & > span { margin-bottom: 10px }
+  & > span {
+    margin-bottom: 10px;
+  }
 `;
 
 const TitleText = styled.i`
   font-size: 1.4rem;
   font-weight: normal;
-  color: rgba(255, 255, 2555, .5);
+  color: rgba(255, 255, 2555, 0.5);
   line-height: 45px;
-`
+`;
 
 const Home = () => {
   return (
     <>
       <Container>
-        <TitleText>
-          황성철 Web Developer Portfolio
-        </TitleText>
+        <TitleText>Fullstack Developer Portfolio</TitleText>
         <Typewriter
           options={{
-            strings: "저는 Fullstack 개발자 입니다.",
+            strings: "저는 개발자 황성철 입니다.",
             autoStart: true,
           }}
         />
-        
       </Container>
       <Particles
         id="tsparticles"

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Navigation = styled.ul`
   position: fixed;
   top: 50%;
-  left: 60px;
+  right: 60px;
   z-index: 1000;
   margin: 0;
   padding: 0;
@@ -17,9 +17,9 @@ const NavigationItem = styled.li`
   width: 2.5px;
   height: 30px;
   background-color: rgba(255, 255, 255, 0.1);
-  
+
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
 
   &::before {
     width: 2.5px;

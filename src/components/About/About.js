@@ -1,62 +1,59 @@
 import styled from "styled-components";
+import { Career } from "..";
 
-const FlexCenter = styled.div`
-  width: 100%;
+const Container = styled.div`
+  width: 1600px;
   height: 100%;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
-`;
 
-const Container = styled.div`
+  margin: 0 auto;
+  padding-top: 400px;
+`;
+const AboutContainer = styled.div`
+  width: 50%;
   display: flex;
   flex-direction: column;
+
+  margin-top: 30px;
 `;
-
-const Top = styled.div`
-  width: 800px;
-
-  margin-bottom: 10px;
-`;
-
-const Box = styled.span`
-  width: auto;
-
-  font-size: 1.2em;
-  font-weight: bold;
-
-  padding: 5px 10px;
-  margin-bottom: 20px;
-  border: 2px solid #000;
-`
 
 const TitleText = styled.span`
-  font-size: 2em;
-  font-weight: bold;
-  line-height: 45px;
+  font-size: 1.7em;
+  font-weight: 800;
 `;
 
-const Bottom = styled.div`
-  color: #a8a8a8;
-  line-height: 25px;
+const EnTitleText = styled.span`
+  font-size: 3em;
+  font-weight: 800;
+  
+  margin-top: 10px;
 `
+
+const Tag = styled.div`
+  width: 350px;
+
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 25px;
+  word-spacing: 6px;
+  font-weight: lighter;
+
+  margin-top: 20px;
+`;
 
 const About = () => {
   return (
-    <FlexCenter>
-      <Container>
-        <Top>
-          <Box>PORTFOLIO</Box><br /><br />
-          <TitleText>
-            console.log("안녕하세요"); <br /> Fullstack 개발자 황성철입니다.
-          </TitleText>
-        </Top>
-        <Bottom>
-          #JavaScript #TypeScript #React #Redux #Next.JS #HTML #CSS <br /> #Node.JS #Express #Mysql #PHP
-        </Bottom>
-      </Container>
-    </FlexCenter>
+    <Container>
+      <AboutContainer>
+        <TitleText>황성철을 소개합니다.</TitleText>
+        <EnTitleText>Hwang Seong-cheol</EnTitleText>
+        <Tag>
+          #JavaScript #TypeScript #React #Redux #Next.JS #HTML #CSS #Node.JS
+          #Express #Mysql #PHP
+        </Tag>
+      </AboutContainer>
+      <Career />
+    </Container>
   );
 };
 
