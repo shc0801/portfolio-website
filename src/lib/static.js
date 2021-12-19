@@ -5,6 +5,18 @@ import {
   LicenseIcon
 } from '../assets/icon';
 
+import {
+  DdtImg,
+  GwangjuImg,
+  KyeonggiImg,
+  MsgImg,
+  SchederImg,
+  SeoulImg,
+  SwjbImg,
+  VtdImg,
+  ZbImg
+} from '../assets/images';
+
 export const CarrerData = {
   data: [
     {
@@ -46,7 +58,7 @@ export const CarrerData = {
         },
         {
           year: 2019,
-          month: "11",
+          month: "11",  
           text: "node.js 어플리케이션 개발"
         },
         {
@@ -56,8 +68,18 @@ export const CarrerData = {
         },
         {
           year: 2020,
-          month: "08",
+          month: "07",
           text: "ICT 산업과정 (자바)"
+        },
+        {
+          year: 2020,
+          month: "08",
+          text: "인공지능(AI) 기초 캠프"
+        },
+        {
+          year: 2020,
+          month: "11",
+          text: "NCS기반 웹개발 전문가 양성 과정"
         },
         {
           year: 2020,
@@ -108,7 +130,87 @@ export const CarrerData = {
           month: "12",
           text: "정보처리기능사"
         },
+        {
+          year: 2020,
+          month: "07",
+          text: "웹디자인기능사"
+        },
       ]
     },
   ]
 };
+
+export const LabelData = [
+  {
+    lat: -5,
+    lng: -33,
+    width: "500px",
+    label: "전국기능경기대회-서울",
+    img: SeoulImg,
+    url: "https://github.com/shc0801/competition-practice/tree/master/%EC%84%9C%EC%9A%B8",
+  },
+  {
+    lat: -15,
+    lng: 15,
+    width: "500px",
+    label: "전국기능경기대회-경기",
+    img: KyeonggiImg,
+    url: "https://github.com/shc0801/competition-practice/tree/master/%EA%B2%BD%EA%B8%B0",
+  },
+  {
+    lat: 20,
+    lng: 20,
+    width: "500px",
+    label: "전국기능경기대회-광주",
+    img: GwangjuImg,
+    url: "https://github.com/shc0801/competition-practice/tree/master/%EA%B4%91%EC%A3%BC",
+  },
+  {
+    lat: 35,
+    lng: -23,
+    width: "500px",
+    label: "지방기능경기대회",
+    img: ZbImg,
+    url: "https://github.com/shc0801/local-convention",
+  },
+  {
+    lat: 26,
+    lng: 250,
+    width: "800px",
+    label: "MSG.GG",
+    img: MsgImg,
+    url: "https://github.com/msg-gg",
+  },
+  {
+    lat: -8,
+    lng: 150,
+    width: "800px",
+    label: "두둥탁",
+    img: DdtImg,
+    url: "https://github.com/Do-Dong-Tak",
+  },
+  {
+    lat: 40,
+    lng: 170,
+    width: "800px",
+    label: "수정과",
+    img: SwjbImg,
+    url: "https://github.com/swjb-sinamon",
+  },
+  {
+    lat: 29.1,
+    lng: 80,
+    width: "800px",
+    label: "스케더",
+    img: SchederImg,
+    url: "https://github.com/shc0801/schedule-calendar",
+  },
+  {
+    lat: -30.1,
+    lng: 90,
+    width: "800px",
+    label: "바.타.디",
+    img: VtdImg,
+    url: "https://zempie.com/play/tfzzbnkbkzt",
+  },
+];

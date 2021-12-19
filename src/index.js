@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import styled from "styled-components";
 import GlobalStyle from "./GlobalStyle";
-import { About, Home, Menu, Career } from "./components";
+import { About, Home, Menu, Project, Contact } from "./pages";
+import { Header, Hamburger } from "./components";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 const Section = styled.div`
@@ -11,9 +12,9 @@ const Section = styled.div`
 
 const Fullpage = () => (
   <ReactFullpage
-    licenseKey='p@31h@M!s7'
+    licenseKey="p@31h@M!s7"
     scrollingSpeed={1000}
-    anchors={["firstPage", "secondPage", "thirdPage", "fourthPage", "lastPage"]}
+    anchors={["firstPage", "secondPage", "thirdPage", "lastPage"]}
     menu="#navigation"
     onLeave={(origin, destination) => {
       document.body.id = destination.item.attributes[1].value;
@@ -27,18 +28,12 @@ const Fullpage = () => (
           <Section className="section fp-noscroll" data-brightness="black">
             <About />
           </Section>
-          <Section
-            className="section fp-noscroll"
-            data-brightness="black"
-          ></Section>
-          <Section
-            className="section fp-noscroll"
-            data-brightness="black"
-          ></Section>
-          <Section
-            className="section fp-noscroll"
-            data-brightness="black"
-          ></Section>
+          <Section className="section fp-noscroll" data-brightness="light">
+            <Project />
+          </Section>
+          <Section className="section fp-noscroll" data-brightness="light">
+            <Contact />
+          </Section>
           <Menu />
         </ReactFullpage.Wrapper>
       );
@@ -49,6 +44,8 @@ const Fullpage = () => (
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
+    <Header />
+    <Hamburger />
     <Fullpage />
   </React.StrictMode>,
   document.getElementById("root")

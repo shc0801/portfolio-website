@@ -1,0 +1,11 @@
+export { default as MyImg } from "./my.png";
+export { default as DdtImg } from "./ddt.png";
+export { default as GwangjuImg } from "./gwangju.png";
+export { default as KyeonggiImg } from "./kyeonggi.png";
+export { default as MsgImg } from "./msg.png";
+export { default as SchederImg } from "./scheder.png";
+export { default as SeoulImg } from "./seoul.png";
+export { default as SwjbImg } from "./swjb.png";
+export { default as VtdImg } from "./vtd.png";
+export { default as ZbImg } from "./zb.png";
+export { default as ContactBackground } from "./contact.jpg";

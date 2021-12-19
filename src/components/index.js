@@ -1,6 +1,4 @@
-import Home from "./Home/Home";
-import About from "./About/About";
-import Menu from "./Menu/Menu";
-import Career from "./Career/Career";
+import Header from "./Header/Header";
+import Hamburger from "./Hamburger/Hamburger";
 
-export { Home, About, Menu, Career };
+export { Header, Hamburger };
