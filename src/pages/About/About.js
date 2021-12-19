@@ -23,6 +23,11 @@ const AboutContainer = styled.div`
 const AboutGroup = styled.div`
   display: flex;
   flex-direction: column;
+
+  transition: .5s;
+  transform: translateX(-200px);
+
+  opacity: 0;
 `;
 
 const TitleText = styled.span`
@@ -50,15 +55,19 @@ const Tag = styled.div`
 
 const ProfileImg = styled.img`
   width: 450px;
+  
+  transition: 1s;
+  transform: translateY(200px);
 
   margin-top: 30px;
+  opacity: 0;
 `;
 
 const About = () => {
   return (
     <Container>
       <AboutContainer>
-        <AboutGroup>
+        <AboutGroup className="about_animation_1">
           <TitleText>황성철을 소개합니다.</TitleText>
           <EnTitleText>Hwang Seong-cheol</EnTitleText>
           <Tag>
@@ -66,7 +75,7 @@ const About = () => {
             #Express #Mysql #PHP
           </Tag>
         </AboutGroup>
-        <ProfileImg src={MyImg} />
+        <ProfileImg className="about_animation_2" src={MyImg} />
       </AboutContainer>
       <Career />
     </Container>

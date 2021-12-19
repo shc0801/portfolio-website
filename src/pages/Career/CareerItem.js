@@ -60,8 +60,8 @@ const CareerItem = ({ name, ename, icon, data }) => {
         </CareerTitle>
       </CareerLeft>
       <CareerRight>
-        {data.map(item => (
-          <Career>
+        {data.map((item, i) => (
+          <Career key={i}>
             {item.year}. {item.month}
             <CareerText>{item.text}</CareerText>
           </Career>

@@ -18,6 +18,25 @@ const Fullpage = () => (
     menu="#navigation"
     onLeave={(origin, destination) => {
       document.body.id = destination.item.attributes[1].value;
+      if(destination.index === 1) {
+        document.querySelector(".about_animation_1").style.transform = "translateX(0)"
+        document.querySelector(".about_animation_1").style.opacity = 1
+
+        document.querySelector(".about_animation_2").style.transform = "translateY(0)"
+        document.querySelector(".about_animation_2").style.opacity = 1
+        
+        document.querySelector(".about_animation_3").style.transform = "translateX(0)"
+        document.querySelector(".about_animation_3").style.opacity = 1
+      } else {
+        document.querySelector(".about_animation_1").style.transform = "translateX(-200px)"
+        document.querySelector(".about_animation_1").style.opacity = 0
+
+        document.querySelector(".about_animation_2").style.transform = "translateY(200px)"
+        document.querySelector(".about_animation_2").style.opacity = 0
+        
+        document.querySelector(".about_animation_3").style.transform = "translateX(200px)"
+        document.querySelector(".about_animation_3").style.opacity = 0
+      }
     }}
     render={({ state, fullpageApi }) => {
       return (
