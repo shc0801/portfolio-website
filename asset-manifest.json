@@ -1,17 +1,32 @@
 {
   "files": {
-    "main.js": "/portfolio-website/static/js/main.9ca0b318.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.9ca0b318.chunk.js.map",
-    "runtime-main.js": "/portfolio-website/static/js/runtime-main.54efd280.js",
-    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.54efd280.js.map",
-    "static/js/2.ce1eb723.chunk.js": "/portfolio-website/static/js/2.ce1eb723.chunk.js",
-    "static/js/2.ce1eb723.chunk.js.map": "/portfolio-website/static/js/2.ce1eb723.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.fc7c1f1d.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.fc7c1f1d.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.6cb3ccc9.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.6cb3ccc9.js.map",
+    "static/js/2.ffc4e8ed.chunk.js": "/portfolio-website/static/js/2.ffc4e8ed.chunk.js",
+    "static/js/2.ffc4e8ed.chunk.js.map": "/portfolio-website/static/js/2.ffc4e8ed.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "static/js/2.ce1eb723.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.ce1eb723.chunk.js.LICENSE.txt"
+    "static/js/2.ffc4e8ed.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.ffc4e8ed.chunk.js.LICENSE.txt",
+    "static/media/AwardIcon.917ca1c2.svg": "/portfolio-website/static/media/AwardIcon.917ca1c2.svg",
+    "static/media/ChatIcon.b7ff33e4.svg": "/portfolio-website/static/media/ChatIcon.b7ff33e4.svg",
+    "static/media/EducationIcon.d11488c2.svg": "/portfolio-website/static/media/EducationIcon.d11488c2.svg",
+    "static/media/LicenseIcon.bcd32a30.svg": "/portfolio-website/static/media/LicenseIcon.bcd32a30.svg",
+    "static/media/contact.2b8ecc55.jpg": "/portfolio-website/static/media/contact.2b8ecc55.jpg",
+    "static/media/ddt.9ed81efc.png": "/portfolio-website/static/media/ddt.9ed81efc.png",
+    "static/media/gwangju.8e1c1a57.png": "/portfolio-website/static/media/gwangju.8e1c1a57.png",
+    "static/media/kyeonggi.6278cf09.png": "/portfolio-website/static/media/kyeonggi.6278cf09.png",
+    "static/media/msg.a6455b0e.png": "/portfolio-website/static/media/msg.a6455b0e.png",
+    "static/media/my.e194b52b.png": "/portfolio-website/static/media/my.e194b52b.png",
+    "static/media/scheder.9e464cff.png": "/portfolio-website/static/media/scheder.9e464cff.png",
+    "static/media/seoul.129ccb99.png": "/portfolio-website/static/media/seoul.129ccb99.png",
+    "static/media/swjb.2764e249.png": "/portfolio-website/static/media/swjb.2764e249.png",
+    "static/media/vtd.b43ce097.png": "/portfolio-website/static/media/vtd.b43ce097.png",
+    "static/media/zb.14286b94.png": "/portfolio-website/static/media/zb.14286b94.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54efd280.js",
-    "static/js/2.ce1eb723.chunk.js",
-    "static/js/main.9ca0b318.chunk.js"
+    "static/js/runtime-main.6cb3ccc9.js",
+    "static/js/2.ffc4e8ed.chunk.js",
+    "static/js/main.fc7c1f1d.chunk.js"
   ]
 }
