@@ -10,7 +10,7 @@ const Hamburger = () => {
         About Me
       </a>
       <a id="project" className="menu-item" href="#thirdPage">
-        Project
+        Projects
       </a>
       <a id="contact" className="menu-item" href="#lastPage">
         Contact
