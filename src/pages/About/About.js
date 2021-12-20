@@ -6,13 +6,19 @@ const Container = styled.div`
   display: flex;
 
   margin: 0 auto;
+
   @media only screen and (min-width: 1200px) {
+    width: 85vw;
+    height: 450px;
+  }
+
+  @media only screen and (min-width: 1600px) {
     width: 85vw;
     height: 650px;
   }
 
   @media only screen and (min-width: 2000px) {
-    width: 65vw;
+    width: 75vw;
     height: 950px;
   }
 `;
@@ -24,6 +30,10 @@ const AboutContainer = styled.div`
   justify-content: space-between;
 
   margin: 30px 0 0 50px;
+
+  @media only screen and (min-width: 2000px) {
+    margin: 20px 0 0 50px;
+  }
 `;
 
 const AboutGroup = styled.div`
@@ -39,6 +49,14 @@ const AboutGroup = styled.div`
 const TitleText = styled.span`
   font-size: 2em;
   font-weight: 800;
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 1.5em;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 2em;
+  }
 `;
 
 const EnTitleText = styled.span`
@@ -46,6 +64,14 @@ const EnTitleText = styled.span`
   font-weight: 800;
 
   margin-top: 10px;
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 2.5em;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 3.5em;
+  }
 `;
 
 const Tag = styled.div`
@@ -57,6 +83,21 @@ const Tag = styled.div`
   font-weight: lighter;
 
   margin-top: 20px;
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 0.7em;
+    line-height: 15px;
+    word-spacing: 4px;
+
+    margin-top: 15px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 1em;
+    line-height: 25px;
+    word-spacing: 6px;
+    margin-top: 20px;
+  }
 `;
 
 const ProfileImg = styled.img`
@@ -67,11 +108,15 @@ const ProfileImg = styled.img`
   opacity: 0;
 
   @media only screen and (min-width: 1200px) {
+    width: 230px;
+  }
+
+  @media only screen and (min-width: 1600px) {
     width: 350px;
   }
 
   @media only screen and (min-width: 2000px) {
-    width: 60%;
+    width: 54%;
   }
 `;
 

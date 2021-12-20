@@ -113,6 +113,10 @@ const GlobalStyle = createGlobalStyle`
     height: 20.41px;
     right: 36px;
     top: 36px;
+    
+    @media only screen and (min-width: 1200px) {
+      top: 26px;
+    }
   }
 
   .bm-burger-bars {

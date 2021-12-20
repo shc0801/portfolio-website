@@ -9,15 +9,21 @@ const TItle = styled.span`
 
   position: absolute;
   left: 5vw;
-  top: 10vh;
   z-index: 1000;
-  
+
   @media only screen and (min-width: 1200px) {
+    font-size: 3em;
+    top: 15vh;
+  }
+
+  @media only screen and (min-width: 1600px) {
     font-size: 4em;
+    top: 10vh;
   }
 
   @media only screen and (min-width: 2000px) {
     font-size: 5em;
+    top: 10vh;
   }
 `;
 

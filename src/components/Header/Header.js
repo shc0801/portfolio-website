@@ -18,6 +18,16 @@ const Container = styled.div`
   left: 3vw;
   top: 0;
   z-index: 1000;
+
+  @media only screen and (min-width: 1200px) {
+    height: 80px;
+    font-size: 0.7em;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    height: 100px;
+    font-size: 0.9em;
+  }
 `;
 
 const Phone = styled.a``;

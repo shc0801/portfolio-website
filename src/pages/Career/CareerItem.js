@@ -6,6 +6,14 @@ const Container = styled.div`
   margin-bottom: 5px;
   padding: 30px 0 0 10px;
   border-top: 2px solid #ddd;
+
+  @media only screen and (min-width: 1200px) {
+    padding: 20px 0 0 10px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    padding: 30px 0 0 10px;
+  }
 `;
 
 const CareerLeft = styled.div``;
@@ -19,7 +27,7 @@ const CareerTitle = styled.span`
 const CareerName = styled.span`
   font-weight: 800;
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1600px) {
     font-size: 1.5em;
   }
 
@@ -49,6 +57,11 @@ const Career = styled.div`
   font-size: 1.2em;
 
   @media only screen and (min-width: 1200px) {
+    font-size: 0.5em;
+    padding: 5px 0;
+  }
+
+  @media only screen and (min-width: 1600px) {
     font-size: 0.8em;
     padding: 10px 0;
   }

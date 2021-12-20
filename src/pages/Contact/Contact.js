@@ -4,6 +4,14 @@ import { ContactBackground } from "../../assets/images";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media only screen and (min-width: 1200px) {
+    padding-left: 200px;
+  }
+  
+  @media only screen and (min-width: 2000px) {
+    padding-left: 0;
+  }
 `;
 
 const BackgroundImg = styled.img`
@@ -26,6 +34,14 @@ const Title = styled.span`
   color: #fff;
 
   margin-bottom: 2rem;
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 3em;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 4em;
+  }
 `;
 
 const SubTitle = styled.span`
@@ -51,7 +67,8 @@ const Contact = () => {
       <SubTitle>"나는 아직 배고프다"</SubTitle>
       <Content>
         안녕하십니까, 풀스택 개발자 황성철입니다. <br />
-        고등학교 생활동안 다양한 프로젝트와 기능반 과정에서 다양한 경험을 얻었고, <br />
+        고등학교 생활동안 다양한 프로젝트와 기능반 과정에서 다양한 경험을
+        얻었고, <br />
         이를 통해 웹 개발 업무 프로세스의 전반적인 능력을 얻었습니다. <br />
         가장 좋은 IT 서비스는 사용자의 입장에서 쓰기편한 서비스라 생각하고{" "}
         <br />늘 사용자의 관점을 고안하며 더 나아가는 개발자가 되기 위해

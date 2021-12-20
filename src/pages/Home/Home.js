@@ -7,9 +7,7 @@ const Container = styled.div`
 
   color: #fff;
   text-align: center;
-  font-size: 3.5rem;
-  font-weight: bold;  
-  line-height: 70px;
+  font-weight: bold;
 
   position: absolute;
   left: 50%;
@@ -20,6 +18,21 @@ const Container = styled.div`
   & > span {
     margin-bottom: 10px;
   }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 2.3rem;
+    line-height: 40px;
+  }
+
+  @media only screen and (min-width: 1600px) {
+    font-size: 2.8rem;
+    line-height: 40px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    line-height: 60px;
+    font-size: 3.5rem;
+  }
 `;
 
 const TitleText = styled.i`
@@ -27,6 +40,14 @@ const TitleText = styled.i`
   font-weight: normal;
   color: rgba(255, 255, 2555, 0.5);
   line-height: 45px;
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 1rem;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 1.4rem;
+  }
 `;
 
 const Home = () => {
