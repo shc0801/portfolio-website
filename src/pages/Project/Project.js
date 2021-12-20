@@ -4,7 +4,6 @@ import NanumSquare from "../../assets/font/NanumSquare_ac Bold_Regular.json";
 import { LabelData } from "../../lib/static";
 
 const TItle = styled.span`
-  font-size: 5em;
   font-weight: bold;
   color: #fff;
 
@@ -12,6 +11,14 @@ const TItle = styled.span`
   left: 5vw;
   top: 10vh;
   z-index: 1000;
+  
+  @media only screen and (min-width: 1200px) {
+    font-size: 4em;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 5em;
+  }
 `;
 
 const Project = () => {

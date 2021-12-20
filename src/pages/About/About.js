@@ -3,12 +3,18 @@ import { Career } from "..";
 import { MyImg } from "../../assets/images";
 
 const Container = styled.div`
-  width: 65vw;
-  height: 950px;
-
   display: flex;
 
   margin: 0 auto;
+  @media only screen and (min-width: 1200px) {
+    width: 85vw;
+    height: 650px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    width: 65vw;
+    height: 950px;
+  }
 `;
 
 const AboutContainer = styled.div`
@@ -24,7 +30,7 @@ const AboutGroup = styled.div`
   display: flex;
   flex-direction: column;
 
-  transition: .5s;
+  transition: 0.5s;
   transform: translateX(-200px);
 
   opacity: 0;
@@ -54,13 +60,19 @@ const Tag = styled.div`
 `;
 
 const ProfileImg = styled.img`
-  width: 450px;
-  
   transition: 1s;
   transform: translateY(200px);
 
   margin-top: 30px;
   opacity: 0;
+
+  @media only screen and (min-width: 1200px) {
+    width: 350px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    width: 60%;
+  }
 `;
 
 const About = () => {

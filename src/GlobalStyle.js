@@ -31,6 +31,7 @@ const GlobalStyle = createGlobalStyle`
     .container {
       max-width: 540px;
     }
+
   }
   @media (min-width: 768px) {
     .container {
