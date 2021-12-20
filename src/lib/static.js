@@ -147,7 +147,7 @@ export const LabelData = [
     width: "500px",
     label: "전국기능경기대회-서울",
     img: SeoulImg,
-    url: "https://github.com/shc0801/competition-practice/tree/master/%EC%84%9C%EC%9A%B8",
+    url: "https://github.com/shc0801/2020-Seoul",
   },
   {
     lat: -15,
@@ -155,7 +155,7 @@ export const LabelData = [
     width: "500px",
     label: "전국기능경기대회-경기",
     img: KyeonggiImg,
-    url: "https://github.com/shc0801/competition-practice/tree/master/%EA%B2%BD%EA%B8%B0",
+    url: "https://github.com/shc0801/2020-Kyeonggi",
   },
   {
     lat: 20,
@@ -163,7 +163,7 @@ export const LabelData = [
     width: "500px",
     label: "전국기능경기대회-광주",
     img: GwangjuImg,
-    url: "https://github.com/shc0801/competition-practice/tree/master/%EA%B4%91%EC%A3%BC",
+    url: "https://github.com/shc0801/2020-Gwangju",
   },
   {
     lat: 35,
@@ -171,7 +171,7 @@ export const LabelData = [
     width: "500px",
     label: "지방기능경기대회",
     img: ZbImg,
-    url: "https://github.com/shc0801/local-convention",
+    url: "https://github.com/shc0801/2021-local",
   },
   {
     lat: 26,
